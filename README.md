@@ -6,18 +6,11 @@ Uses tweet to identify user's general sentiment towards a particular movie
 	2. The twitter data to be generated needs security credentials.
 	3. Replace security credentials in config.json file present in Data folder.
 	4. To Run the Movie Review Classifiers type on the console,
-		python sentiment_analysis.py -h
-			-it will show the help to run the file,
-			-The code runs with 3 arguments DatabaseName, Algorithm, Cross Validation
-			-usage: ReadingTrainingData.py [-h] dataset algo CV
-				positional arguments:
-				  dataset     Dataset to Classify (rottom batvsuper junglebook zootopia
-							  deadpool)
-				  algo        Classification Algorithm to be used (all gnb svm maxEnt)
-				  CV          Using Cross validation (yes/no)
+		python sentiment_analysis.py NAME ALGO OUTPUT
+			positional arguments:
+			  NAME     Name of the movie for which you want to get the analysis
+			  ALGO     Classification Algorithm to be used (gnb svm)
+			  OUTPUT   Graphical representation of the analysis (Bargraph(bar) Wordcloud(WC) Piechart(pie))
 
-		example: to run the code for dataset junglebook using SVM and without crossvalidation type:
-			python sentiment_analysis.py junglebook svm no
-			
-		example: to run the code for dataset rottom using all the classifiers and with crossvalidation type:
-			python sentiment_analysis.py rottom all yes
+		example: to run the code for movie andhadhun using SVM and get result as piechart:
+			 python sentiment_analysis.py andhadhun svm pie
