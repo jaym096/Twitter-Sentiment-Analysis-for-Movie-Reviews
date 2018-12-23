@@ -4,7 +4,7 @@ Uses tweet to identify user's general sentiment towards a particular movie
 ### STEPS TO RUN THE CODE:
 	1. The Data folder consists of all the Datsets that have been used in the Project.
 	2. The twitter data to be generated needs security credentials.
-	3. After getting the credentials replace it in config.json file present in Code folder.
+	3. Replace security credentials in config.json file present in Data folder.
 	4. To Run the Movie Review Classifiers type on the console,
 		python sentiment_analysis.py -h
 			-it will show the help to run the file,
