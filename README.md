@@ -1,5 +1,5 @@
 # Twitter-Sentiment-Analysis-for-Movie-Reviews
-Uses tweet to identify user's general sentiment towards a particular movie
+Using tweets to identify user's general sentiment towards a particular movie
 
 ### STEPS TO RUN THE CODE:
 	1. The Data folder contains all the Datasets required for the Project.
