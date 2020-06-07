@@ -1,5 +1,10 @@
 # Twitter-Sentiment-Analysis-for-Movie-Reviews
-Using tweets to identify user's general sentiment towards a particular movie
+
+**Tools and Technology Used:** Python, NLTK, Sk-Learn
+
+Used movie related twitter data using **‘tweepy’** API to summarizes user’s sentiment towards a particular movie. Trained the model 
+against rt-polarity dataset using classification algorithms: **Gaussian Naïve Bayes** and **Support Vector Machine**. Classified 
+sentiments into positive, negative, and neutral, performing visual analysis using word cloud, bar graph and pie chart 
 
 ### STEPS TO RUN THE CODE:
 	1. The Data folder contains all the Datasets required for the Project.
